@@ -1,0 +1,17 @@
+*.sublime*
+*.psd
+*.docx
+Thumbs.db
+readme.html
+
+files
+klimokhina
+
+.DS_Store
+._.DS_Store
+
+ex*.*
+photo*.*
+picture*.*
+text.html
+article*.*
