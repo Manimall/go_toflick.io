@@ -15,3 +15,5 @@ photo*.*
 picture*.*
 text.html
 article*.*
+
+jquery-min.js
