@@ -1,0 +1,396 @@
+<HTML>
+
+<HEAD>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+  <!-- собственные стили -->
+  <LINK href=style.css rel=stylesheet type=text/css> <!-- подключаем jquery -->
+  <script src="jquery-min.js"></script>
+
+  <!-- подключаем mfp  -->
+  <!-- Magnific Popup core JS file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+  <TITLE>Пейзаж</TITLE>
+</HEAD>
+
+<BODY bgcolor=#FFFFFF>
+
+  <!-- навигация (меню) -->
+  <nav class="font02 gallery-nav main-nav">
+
+    <a class="current-page-link" href="#">Пейзаж</a>
+
+    <ul class="main-nav__list site-widget main-nav__list--index">
+      <a class="site-link" href="page5.html">Пейзаж</a>
+      <a class="site-link" href="gallery2.html"> Натюрморт</a>
+      <a class="site-link" href="gallery3.html"> Портрет</a>
+      <a class="site-link" href="gallery4.html">Ню</a>
+      <a class="site-link" href="gallery5.html">Ассоциации</a>
+      <a class="site-link" href="author.html">Автор</a>
+
+      <p align="center">
+        <a class="to-index-link" href="index.html">
+          главная
+        </a>
+      </p>
+    </ul>
+
+    <button class="main-nav__toggle toggle" type="button">
+      <span class="visually-hidden">Показать/Скрыть Меню</span>
+      <span class="toggle__btn"></span>
+    </button>
+  </nav>
+
+  <div class="container">
+
+    <!-- верхняя пагинация
+      <ul class="pagination pagination-top" aria-label="навигация по страницам каталога">
+        <!-- <li class="pagination__item">
+          <a class="pagination__dir pagination__dir--prev pagination__dir--disabled"><span class="visually-hidden">Назад</span></a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link pagination__link--current" aria-label="текущая страница 1">1</a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link" href="gal1.html">2</a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link" href="gallery1.html">3</a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link" href="page2.html">4</a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link" href="page3.html">5</a>
+        </li>
+        <!-- <li class="pagination__item">
+          <a class="pagination__dir pagination__dir--next" href="#"><span class="visually-hidden">Вперёд</span></a>
+        </li> -->
+      </ul>
+
+    <section class="inner-page gallery">
+      <!-- список изображений -->
+      <ul class="gallery__list">
+        
+        
+        
+                       <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Неторопливый июль</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/slow_july.JPG" class="gallery-item__img-link">
+              <img src="files/slow_july.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">75х100, 2018</p>
+          </div>
+        </li>
+        
+        
+        
+        
+                       <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Две дорожки</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/two_roads.JPG" class="gallery-item__img-link">
+              <img src="files/two_roads.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, акрил</p>
+            <p class="gallery-item__sizes">83х102, 2018</p>
+          </div>
+        </li>
+        
+        
+        
+        
+                        <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Белый день</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/white_day.jpg" class="gallery-item__img-link">
+              <img src="files/white_day.jpg" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">100х100, 2018</p>
+          </div>
+        </li>
+        
+        
+                     <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Не спится</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/no_dream.JPG" class="gallery-item__img-link">
+              <img src="files/no_dream.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">150х100, 2018</p>
+          </div>
+        </li>
+        
+        
+        
+                    <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Ночью на набережной</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/night_waterfront.JPG" class="gallery-item__img-link">
+              <img src="files/night_waterfront.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">80х100, 2018</p>
+          </div>
+        </li>
+        
+        
+        
+                    <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Гудит Мурманск</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/murmansk_noise.JPG" class="gallery-item__img-link">
+              <img src="files/murmansk_noise.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">Картон,смешанная техника</p>
+            <p class="gallery-item__sizes">81х91, 2018</p>
+          </div>
+        </li>
+        
+          
+                   <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Май</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/may.JPG" class="gallery-item__img-link">
+              <img src="files/may.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">Картон,акрил,темпера</p>
+            <p class="gallery-item__sizes">81х91, 2018</p>
+          </div>
+        </li>
+        
+        
+                   <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Долгий полдень</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/long_noon.gif" class="gallery-item__img-link">
+              <img src="files/long_noon.gif" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">Холст,масло</p>
+            <p class="gallery-item__sizes">80х120, 2018</p>
+          </div>
+        </li>
+        
+        
+                   <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Против света</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/against_light.JPG" class="gallery-item__img-link">
+              <img src="files/against_light.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">Холст,масло, акрил</p>
+            <p class="gallery-item__sizes">90х100, 2018</p>
+          </div>
+        </li>
+              
+               
+            <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Несокрушимый</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/adamantine.JPG" class="gallery-item__img-link">
+              <img src="files/adamantine.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">Картон,темпера, акрил</p>
+            <p class="gallery-item__sizes">70х100, 2018</p>
+          </div>
+        </li>
+        
+        
+              
+            <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Плеский воздух</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/plios_air.JPG" class="gallery-item__img-link">
+              <img src="files/plios_air.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">75х85, 2017</p>
+          </div>
+        </li>
+        
+        
+        
+            <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Волга - Шохонка</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/volga_shohonka.jpg" class="gallery-item__img-link">
+              <img src="files/volga_shohonka.jpg" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">80х60, 2017</p>
+          </div>
+        </li>
+        
+        
+        
+        
+         <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Урожай собран</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/crop_harvested.JPG" class="gallery-item__img-link">
+              <img src="files/crop_harvested.JPG" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">60х80, 2017</p>
+          </div>
+        </li>
+        
+        
+        
+         <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Ночные тени</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/night_shadows.jpg" class="gallery-item__img-link">
+              <img src="files/night_shadows.jpg" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло</p>
+            <p class="gallery-item__sizes">95х135, 2016</p>
+          </div>
+        </li>
+        
+        
+
+        <!-- отдельное изображение -->
+        <li class="gallery__item gallery-item">
+          <div class="gallery-item__name">
+            <b>Туристы в Плесе</b>
+    
+          </div>
+          <div class="gallery-item__img-wrapper">
+            <a href="files/tourists_in_plios.jpg" class="gallery-item__img-link">
+              <img src="files/tourists_in_plios.jpg" alt="Your own text">
+            </a>
+          </div>
+          <div class="gallery-item__description">
+            <p class="gallery-item__made-of">холст, масло (canvas, oil)</p>
+            <p class="gallery-item__sizes">100х120, 2014</p>
+          </div>
+        </li>
+        <!-- конец отдельного изображения -->
+
+
+
+
+      </ul>
+    </section>
+
+    <!-- пагинация
+
+    <ul class="pagination" aria-label="навигация по страницам каталога">
+      <!-- <li class="pagination__item">
+        <a class="pagination__dir pagination__dir--prev pagination__dir--disabled"><span class="visually-hidden">Назад</span></a>
+      </li> 
+      <li class="pagination__item">
+        <a class="pagination__link pagination__link--current" aria-label="текущая страница 1">1</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="gal1.html">2</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="gallery1.html">3</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="page2.html">4</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="page3.html">5</a>
+      </li>
+      <!-- <li class="pagination__item">
+        <a class="pagination__dir pagination__dir--next" href="#"><span class="visually-hidden">Вперёд</span></a>
+      </li> -->
+    </ul>
+
+  </div>
+  
+  <a href="#" class="scrollToTop">
+   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="30" height="30" viewBox="0 0 284.929 284.929" xml:space="preserve">
+	<g>
+		<path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285   C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854   c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848   c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566   C284.929,199.378,283.984,197.188,282.082,195.285z"/>
+	</g>
+   </svg>    
+  </a>
+
+  <!-- подключаем свои скрипты здесь -->
+  <script src="main.js"></script>
+  <script type="text/javascript" src="retina.min.js"></script>
+</BODY>
+
+</HTML>
